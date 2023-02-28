@@ -21,5 +21,5 @@ For information about programming of this board please visit wiki!
 
 ## Where I can buy it? 
 
-[Makermarket](http://makermarket.cz/) - not yet launched!
+[Makermarket](http://makermarket.cz/) 
 
