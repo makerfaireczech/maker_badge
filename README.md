@@ -1,5 +1,5 @@
 # Maker badge
-The Maker badge board is official badge board for Maker Faire´s in Czech republic. Main purpose is to show visitors/exhibitors name and/or project, but secondary goal is to have at each Maker Faire some interactive game so people can have more fun at the time of the visit.
+The Maker badge board is official badge board for Maker Faire's in Czech republic. Main purpose is to show visitors/exhibitors name and/or project, but secondary goal is to have at each Maker Faire some interactive game so people can have more fun at the time of the visit.
 
 This board supports Arduino and CircuitPython platform. 
 
