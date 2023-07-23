@@ -27,7 +27,7 @@ For information about programming of this board please visit wiki!
 
 ## Board version
 
-There are currently 3 revisions of the board:
+There are currently following revisions of the board:
 
 - rev. A : this version was distributed by me and it was using **212 x 104 px** e-ink display with UC8151D driver
 - rev. B : this board was assembled by me for Maker Faire Prague 2022 and it was using **250 x 122 px** e-ink display with SSD1680 driver from Make More. It contain same type of components as rev. A .  
