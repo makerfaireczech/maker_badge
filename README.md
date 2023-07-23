@@ -41,10 +41,6 @@ There are currently following revisions of the board:
 	These boards were distributed at Maker Faire Prague 2023 (10 - 11/6/2023) and onwards.
 	
 
-## How to use this board? 
-
-For information about programming of this board please visit wiki!
-
 ## Where I can buy it? 
 
 [Makermarket](https://www.makermarket.cz/maker-badge)
