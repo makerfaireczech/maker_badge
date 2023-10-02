@@ -58,7 +58,7 @@ void setup() {
 
   neopixels.setCustomShow(myCustomShow1); // set the custom show function to forgo the NeoPixel
   digitalWrite(ledPower, LOW); //turn on power for LED´s
-  digitalWrite(PWR, LOW); //turn on power for LED´s  
+  digitalWrite(PWR, LOW); //turn on power for screen
   neopixels.strip_off(); //clear all LED´s 
 
   // wait for display to become available

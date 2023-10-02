@@ -7,13 +7,14 @@
 
 // Please define you maker badge version. Select A if you get badge earlier than 8/2022 a B if you get it after 8/2022
 
-#define A
+#define B
 
 // ESP32-S2
 #define BUSY 42
 #define RST  39
 #define DC   40
 #define CS   41
+#define PWR  16
 
 #ifdef B
 GxEPD2_BW<GxEPD2_213_B74, GxEPD2_213_B74::HEIGHT> display(GxEPD2_213_B74(CS, DC, RST, BUSY)); // GDEM0213B74 128x250, SSD1680
@@ -23,6 +24,8 @@ GxEPD2_BW<GxEPD2_213_T5D, GxEPD2_213_T5D::HEIGHT> display(GxEPD2_213_T5D(CS, DC,
 
 void setup()
 {
+  pinMode(PWR, OUTPUT);
+   digitalWrite(PWR, LOW); //turn on power for screen
   display.init(115200);
   simpleText();
   display.hibernate();
